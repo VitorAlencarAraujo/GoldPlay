@@ -1,0 +1,52 @@
+@import url(./global.css);
+
+/* -------------- HEADER -------------- */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-black);
+
+    padding: 20px;
+}
+
+.header-nav{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    
+}
+
+.itens-nav{
+    display: flex;
+    gap: 34px;
+}
+
+.itens-nav li {
+    color: var(--color-foreground);
+    font-family: var(--font-size-body);
+    font-size: var(--font-size-body);
+
+}
+
+/* --------------------------------- */
+
+.search-login{
+    display: flex;
+}
+
+.search-login-search{
+    border: var(--color-brand) solid 2px;
+    border-radius: 10px;
+
+}
+
+.icon-search{
+    display: block;
+}
+
+
+
+
+
