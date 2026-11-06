@@ -7,8 +7,9 @@ header{
     justify-content: space-between;
     align-items: center;
     background-color: var(--color-black);
+    font-family: var(--font-body);
 
-    padding: 20px;
+    padding: 20px 60px;
 }
 
 .header-nav{
@@ -32,19 +33,48 @@ header{
 
 /* --------------------------------- */
 
-.search-login{
+.container-search{
     display: flex;
+    gap: 30px;
+    align-items: center;
 }
 
-.search-login-search{
-    border: var(--color-brand) solid 2px;
-    border-radius: 10px;
+.container-search form{
+    display: flex;
+    align-items: center;
+    border: var(--color-brand) solid 1px;
+    gap: 5px;
+    padding: 5px;
+
+    border-radius: 5px;
 
 }
 
-.icon-search{
-    display: block;
+.container-search form input{
+    background-color: transparent;
+    color: var(--color-foreground);
 }
+
+.container-search form input:focus{
+    outline: none;
+}
+
+.container-search form button{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+}
+
+.btnheader{
+    background-color: var(--color-brand);
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: var(--color-black);
+    font-weight: bold;
+}
+
+
+
 
 
 
