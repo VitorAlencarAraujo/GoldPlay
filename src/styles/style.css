@@ -73,6 +73,24 @@ header{
     font-weight: bold;
 }
 
+main{
+    height: 80vh;
+    color: var(--color-foreground);
+    background-image: url(../assets/images/minion-background.svg);
+    background-repeat: no-repeat;
+    background-color: var(--color-black);
+    background-size: cover;
+   
+
+    /* padding: ; */
+}
+
+main div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
 
 
 
