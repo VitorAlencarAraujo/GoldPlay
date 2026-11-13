@@ -139,14 +139,13 @@ main div nav {
 
 .section-genre {
     background-color: var(--color-black);
-    padding-inline: 61px;
+    padding-inline: 61px;   
     display: flex;
     
     padding-block: 40px;
     flex-direction: column;
     
 }
-
 
 
 .container-genre{
@@ -190,7 +189,27 @@ main div nav {
     font-size: var(--font-size-body);
 }
 
+/* -------- SECTION-MOVIE -------- */
 
+.section-movies{
+    background-color: var(--color-surface);
+    padding-inline: 60px;
+    padding-block: 30px;
+}
+
+.container-movies{
+    margin-top: 20px;
+}
+
+.section-movies h2{
+    font-family: var(--font-title);
+    font-size: var(--font-size-h2);
+    color: var(--color-foreground);
+}
+
+.section-movies h2 span {
+    color: var(--color-brand);
+}
 
 
 
